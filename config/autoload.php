@@ -1,4 +1,5 @@
 <?php
+	date_default_timezone_set('Asia/Bangkok');
 	header('Access-Control-Allow-Origin: *');
 	include_once("class.database.php");
 	define("host", "localhost");
